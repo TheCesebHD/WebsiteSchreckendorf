@@ -7,6 +7,8 @@
     padding: 0;
   }
   
+ 
+
   header {
     display: flex;
     justify-content: space-between;
@@ -42,12 +44,12 @@
   }
   
   .nav__links li a:hover {
-    color: #0088a9;
+    color: #e00c0f;
   }
   
   .cta {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: #e00c0f;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -55,7 +57,7 @@
   }
   
   .cta:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: #e00c10d3;
   }
   
   /* Mobile Nav */
@@ -97,7 +99,7 @@
   
   .overlay a:hover,
   .overlay a:focus {
-    color: #0088a9;
+    color: #e00c0f;
   }
   .overlay .close {
     position: absolute;
@@ -116,7 +118,7 @@
       top: 15px;
       right: 35px;
     }
-  }
+  } 
   
   @media only screen and (max-width: 800px) {
     .nav__links,
@@ -127,24 +129,3 @@
       display: initial;
     }
   }
-
-  .hp_section_1 h1 {
-    display: flex;
-    justify-content: center;
-    font-family: Acme;
-    font-size: 45px;
-  }
-  .hp_section_1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px;
-    margin-top: 90px;
-  }
-  .hp_section_1 p {
-    font-display: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1%;
-  }
-/* Kontakt */

@@ -4,14 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.1, user-scalable=yes">
-    <meta name="description" content="index.html Datei der Firma "Fernseh Frank">
+    <meta name="description" content="index.html Datei von "Paintball Arena Schreckendorf">
 
-    <title>Fernseh Frank</title>
+    <title>Paintball Schreckendorf</title>
     
 
     <!--CSS-->
-    <link rel="stylesheet" href="stylesheet.css">
-
+    <link rel="stylesheet" href="../css/main-stylesheet.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+    
     <!---Fonts-->
     <link rel="stylesheet" type="text/css" href="/fonts/Acme-Regular.ttf">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,7 +22,7 @@
 
 <body>
     <header>
-        <a class="logo" href="index.html"><img src="img/web-logo_white.png" alt="logo"></a>
+        <a class="logo" href="index.html"><img src="../img/web-logo_white.png" alt="logo"></a>
         <nav>
             <ul class="nav__links">
                 <li><a href="index.html">Startseite</a></li>
@@ -41,20 +42,85 @@
             <a href="Kontakt.html">Kontakt</a>
         </div>
     </div>
-    <script type="text/javascript" src="mobile.js"></script>
+    <script type="text/javascript" src="../scripts/mobile.js"></script>
 
-<div class="header-picture">
-    <img class="header-image" src="img/head_img.png" alt="©Pixabay">
-    
+<!--Image Slider Start-->
+
+<div class="home-slider">
+    <div class="slides">
+        <!--Button start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+        <!--Button end-->
+
+        <!--Images start-->
+            <div class="slide first">
+                <img src="../img/slider/Slider_img_1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="../img/slider/Slider_img_2-.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="../img/slider/Slider_img_3.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="../img/slider/Slider_img_4.png" alt="">
+            </div>
+        <!--Images end-->
+
+        <!--Auto Nav start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        <!--Auto Nav end-->
+    </div>
+    <!--Manual Nav start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    <!--Manual Nav end-->
 </div>
 
-<section class="hp_section_1">
+<script type="text/javascript" src="../scripts/slider.js"></script>
+
+<!--Image Slider End-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section class="hp_section_1">
     <div>
-        <h1>Wilkommen bei Fernseh Frank</h1>
+        <h1>Wilkommen bei der Paintball Arena Schreckendorf</h1>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
     </div>
 </section>
 
 </body>
 
-</html>
+</html> -->
