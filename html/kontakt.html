@@ -10,6 +10,7 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="../css/main-stylesheet.css">
+    <link rel="stylesheet" href="../css/contact-form.css">
 
 </head>
 
@@ -37,7 +38,40 @@
     </div>
     <script type="text/javascript" src="../scripts/mobile.js"></script>
 
-    <h2 class="comming-soon">coming soon...</h2>
+    <!--Contact Form start-->
+
+    <div class="contact-title">
+        <h1>Kontaktieren Sie uns</h1>
+    </div>
+
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="../scripts/contact-form.php">
+            <input type="text" name="name" class="form-control" placeholder="*Name" required>
+            <br>    
+            <input type="email" name="email" class="form-control" placeholder="*E-Mail" required>
+            <br>
+            <textarea name="message" class="form-control" placeholder="*Ihre Nachricht" row="4" required></textarea>
+            <br>
+            <input type="submit" class="form-control submit" value="Nachricht senden">
+        </form>
+    </div>
+
+    <!--Contact Form end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
