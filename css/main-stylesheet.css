@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
-
+.CookieDeclaration {
+  display: none !important;
+}
 
 * {
     box-sizing: border-box;
@@ -145,5 +147,12 @@
     }
     .menu {
       display: initial;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .hp_section_2 .hp_section_2_cntnt .inner_section {
+     max-width: 500px;
+     padding: 2.5em !important;
     }
   }
